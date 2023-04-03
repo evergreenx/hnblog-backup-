@@ -46,7 +46,7 @@ To get started, head over to [expo documentation](https://expo.github.io/router/
 npx create-react-native-app -t with-typescript ricknmorty-expo-router
 ```
 
-once, it is done installing our project, navigate to the project directory and start the development server by running:
+Once, it is done installing our project, navigate to the project directory and start the development server by running:
 
 ```javascript
 cd ricknmorty-expo-router
@@ -55,7 +55,7 @@ npx expo start
 
 This will launch the Expo development server, which you can preview your app in the browser or on your phone using [Expo Go](https://docs.expo.dev/get-started/installation/#expo-go-app-for-android-and-ios).
 
-if all went well you should have a screen preview like this
+If all went well you should have a screen preview like this
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1680136259933/7b391efe-2cb1-4290-8b61-3b1483e7284e.png?height=600 align="left")
 
@@ -69,7 +69,7 @@ Now let's install expo router and its peer dependencies :
 npx expo install expo-router react-native-safe-area-context react-native-screens expo-linking expo-constants expo-status-bar
 ```
 
-after successful installation, let's configure our app to use expo router.
+After successful installation, let's configure our app to use expo router.
 
 Create a new file `index.ts` in the root of your project. If it exists already, replace it with the following code :
 
@@ -77,7 +77,7 @@ Create a new file `index.ts` in the root of your project. If it exists already, 
 import "expo-router/entry";
 ```
 
-also, create `app.json` file and add this code, we are adding a deep linking scheme to our app.
+Also, create `app.json` file and add this code, we are adding a deep linking scheme to our app.
 
 ```javascript
 {
@@ -427,7 +427,7 @@ So far our app is coming together piece by piece. it should look like this.
 
 One should be able to move between screens and we will see how to do that in Expo Router. To achieve this expo router has a [`<Link`](https://expo.github.io/router/docs/features/linking)`/>` component or `useRouter` hook. so let's make it when we click on a character we move to a dynamic route to view that particular character's details.
 
-Head over to the project and create a new folder inside the `app` directory and name it `details` , then create a file `[id].tsx` inside this folder. This will serve as our dynamic route screen, where characters' details will be shown. Expo router makes it easy too use to create screens on the fly. add the code to our just created screen.
+Head over to the project and create a new folder inside the `app` directory and name it `details` , then create a file `[id].tsx` inside this folder. This will serve as our dynamic route screen, where characters' details will be shown. Expo router makes it easy to add navigation on the fly. Add the code to our just created screen.
 
 ```javascript
 import { View, Text, ViewStyle, TextStyle, Image } from "react-native";
