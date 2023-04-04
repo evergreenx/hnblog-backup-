@@ -415,7 +415,7 @@ const $characterInfoContainer: ViewStyle = {
 };
 ```
 
-Let's break down what the code does, so we render a grid of cards containing each character, also the component takes a prop `characters` which is an array of objects. The component uses a `FlatList` to render the cards and the `keyExtractor` prop is used to extract a unique key for each item in the array, `numcolumns` prop is set to display the cards in a grid with two columns and the `showsVerticalScrollIndicator` prop is set to `false` to hide the vertical scroll indicator. `renderHeader` prop is used to render a component on top of the list, we render an image component with an our image source hosted on Cloudinary.
+Let's break down what the code does, so we render a grid of cards containing each character, also the component takes a prop `characters` which is an array of objects. The component uses a `FlatList` to render the cards and the `keyExtractor` prop is used to extract a unique key for each item in the array, `numcolumns` prop is set to display the cards in a grid with two columns and the `showsVerticalScrollIndicator` prop is set to `false` to hide the vertical scroll indicator. `renderHeader` prop is used to render a component on top of the list, we render an image component with our image source hosted on [Cloudinary](https://cloudinary.com/).
 
 We define `renderCharacters` a function that takes an object with an item property that represents a single character from the `characters` array. The function returns a JSX representation of a character card and lastly, and we define some styles to make the cards look good.
 
@@ -768,7 +768,7 @@ const $characterInfoContainer: ViewStyle = {
 };
 ```
 
-The new changes contained in the code above, we imported `useRouter` hook from expo router, and we will use it to navigate to the dynamic screen we created earlier. as stated in the docs we could use the Link component to move between and we can also use the useRouter hook to navigate imperatively.
+For the new changes contained in the code above, we imported `useRouter` hook from expo router, and we will use it to navigate to the dynamic screen we created earlier. As stated in the docs we could use the Link component to move between and we can also use the useRouter hook to navigate imperatively.
 
 On our card, we added a `Pressable` component, onPress of the card we will be taken to the `details/id` and we are passing a param to the screen which is `id` representing a single character. Then use the `id` to get data from our API for that particular character.
 
