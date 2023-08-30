@@ -1,10 +1,10 @@
 ---
-title: "Advance TypeScript Type Systems"
-seoTitle: "Enhanced TypeScript Type Structures"
+title: "Advanced TypeScript Type Systems"
+seoTitle: "Advanced TypeScript Type Systems"
 seoDescription: "Explore TypeScript's advanced features like union, intersection types, generics, and type inference for better coding and robust apps"
 datePublished: Tue Aug 29 2023 13:27:21 GMT+0000 (Coordinated Universal Time)
 cuid: cllwceupe000208lj1xpb0iks
-slug: advance-typescript-type-systems
+slug: advanced-typescript-type-systems
 cover: https://cdn.hashnode.com/res/hashnode/image/stock/unsplash/pP1f7Iwnd1Q/upload/f110faba201082dfe11a4799b90f363a.jpeg
 tags: javascript, typescript
 
