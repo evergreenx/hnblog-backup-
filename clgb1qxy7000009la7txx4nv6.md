@@ -5,7 +5,7 @@ seoDescription: "Learn what Incremental Static Regeneration means"
 datePublished: Sat Apr 01 2023 16:26:00 GMT+0000 (Coordinated Universal Time)
 cuid: clgb1qxy7000009la7txx4nv6
 slug: incremental-static-regeneration-in-nextjs
-cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1681143574112/6f263d77-c89f-4282-966e-6311b1178a1b.png
+cover: https://cdn.hashnode.com/res/hashnode/image/stock/unsplash/fvJ9VGJ9xI0/upload/0596bf277a341c1c34f8ce52e70cb973.jpeg
 tags: nextjs, nextjs-isr
 
 ---
