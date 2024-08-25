@@ -40,6 +40,6 @@ As a [React](https://react.dev/) developer, you definitely will need framer moti
     
 * [Also a collection of framer motion examples, you'll find 423 example projects, of which 172 are freely accessible](https://framermotionexamples.com/).
     
-* ## Conclusion
+    ## Conclusion
     
-* The links shared above should be enough to start and learn how to use framer motion in your React app.
+    The links shared above should be enough to start and learn how to use framer motion in your React app. bye for now
